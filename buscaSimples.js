@@ -10,11 +10,14 @@ function busca (lista,item){
 }
 
 const lista = [10,20,30,40,50];
-const item = 30;
+const item = 3078;
 
 const indice = busca (lista,item)
 
 if (indice !== -1){
     console.log(`O item procurado é o ${indice}`)
+}
+else {
+    console.log("Esse item não pertence ao array")
 }
 
